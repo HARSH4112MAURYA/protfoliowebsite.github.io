@@ -147,6 +147,20 @@ dt {
 	display: inline-block;
 	margin-left: 0.5rem;
 }
+
+ul.side-nav.fixed {
+    width: 250px;
+    margin-bottom: 100px; /* Ensure the navigation bar doesn't overlap the footer */
+}
+
+footer {
+    padding: 20px;
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding-bottom: 100px; /* This ensures there’s space between the nav bar and footer content */
+}
+
 ul.side-nav {
 	width: 250px;
 }
