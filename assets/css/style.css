@@ -133,7 +133,7 @@ nav i {
 
 main {
 	background: url(../../assets/img/bg.png) repeat;
-	padding-left: 250px;
+	padding-left: 200px;
 }
 dl {
 	margin-top: 0.5rem;
@@ -149,8 +149,8 @@ dt {
 }
 
 ul.side-nav.fixed {
-    width: 150px;
-    margin-bottom: 100px; /* Ensure the navigation bar doesn't overlap the footer */
+    width: 200px;
+    margin-bottom: 150px; /* Ensure the navigation bar doesn't overlap the footer */
 }
 
 footer {
@@ -158,11 +158,11 @@ footer {
     background-color: #004d40;
     color: white;
     text-align: center;
-    padding-bottom: 100px; /* This ensures there’s space between the nav bar and footer content */
+    padding-left: 250px; /* This ensures there’s space between the nav bar and footer content */
 }
 
 ul.side-nav {
-	width: 150px;
+	width: 200px;
 }
 ul.side-nav li {
 	padding: 0;
