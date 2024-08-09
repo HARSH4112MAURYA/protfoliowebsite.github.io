@@ -133,7 +133,7 @@ nav i {
 
 main {
 	background: url(../../assets/img/bg.png) repeat;
-	padding-left: 190px;
+	padding-left: 250px;
 }
 dl {
 	margin-top: 0.5rem;
@@ -148,7 +148,7 @@ dt {
 	margin-left: 0.5rem;
 }
 ul.side-nav {
-	width: 190px;
+	width: 250px;
 }
 ul.side-nav li {
 	padding: 0;
