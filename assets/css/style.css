@@ -490,4 +490,8 @@ a.hoverline:hover {
     padding: 10px 20px;
     font-size: 14px;
   }
+
+  .footer{
+	  padding-left: 0;
+  }
 }
