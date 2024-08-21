@@ -475,8 +475,8 @@ a.hoverline:hover {
 
   /* Make the social media buttons smaller */
   .icon-btn {
-    width: 30px;
-    height: 30px;
+	font-size: 20px;
+	padding: 8px;
   }
 
   /* Make the read more button smaller */
