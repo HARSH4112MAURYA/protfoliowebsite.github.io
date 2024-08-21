@@ -439,8 +439,17 @@ a.hoverline:hover {
 }
 
 /* Mobile Styles */
-
 @media only screen and (max-width: 768px) {
+  /* Hide the side navigation bar */
+  ul.side-nav.fixed {
+    display: none;
+  }
+
+  /* Remove the padding from the main content */
+  main {
+    padding-left: 0;
+  }
+
   /* Simplify the layout */
   .container {
     width: 90%;
@@ -456,15 +465,6 @@ a.hoverline:hover {
   section {
     padding: 20px;
     margin-bottom: 20px;
-  }
-
-  /* Make the navigation menu more compact */
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin-bottom: 10px;
   }
 
   /* Make the profile picture smaller */
